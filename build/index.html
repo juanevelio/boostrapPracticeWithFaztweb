@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>APP</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+
+    <!--aqui empieza el nav-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!--aqui termina el nav-->
+
+
+<br>
+<br>
+
+<!--contenedor-->
+<div class="container">
+    <div id="app" class="row pt-5">
+        <div class="col-md-4 ">
+            <div class="card">
+                <div class="card-header">
+
+                    <h3>PRODUCTO</h3>
+                </div>
+                <form class="card-body"  id="productName">
+                    <div class="form-group" >
+                        <input type="text" name="name" id="name" placeholder="Product Name" class="form-control">
+                    <div class="form-group">
+                        <input type="number" name="price" id="price" placeholder="Product Price" class="form-control">
+                    <div class="form-group">
+                        <input  type="submit" value="GUARDAR" class="btn btn-outline-primary btn-block">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div> 
+        
+    </div>
+    <div id="productList"  class="col-md-8"></div>
+</div>
+<!--hasta aqui el contenedor-->
+<!-- <script src="app.js"></script> -->
+<script type="text/javascript" src="bundle.js"></script></body>
+</html>
+
+
